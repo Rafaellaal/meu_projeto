@@ -1,0 +1,48 @@
+.NÃO {
+    margin: -1%;
+    width: 101.5%;
+    right: 100px;
+}
+li {
+    display: inline-block;
+    margin: 39px;
+}
+
+.Menu {
+    position: absolute;
+    margin: -6.5%;
+    margin-block-end: auto;
+    left: 555px;
+}
+
+a {
+    color: aliceblue;
+}
+a:hover {
+    color: red;
+}
+h1 {
+    text-align: center;
+    color: rgb(212, 10, 10);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 30%;
+    margin-top: 2%;
+}
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: white;
+
+}
+input {
+    margin-top: 15px;
+    height: 25px;
+    padding: 15px;
+    border-radius: 25px;
+    border-color: red;
+} 

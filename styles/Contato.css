@@ -1,0 +1,32 @@
+.NÃO {
+    margin: -1%;
+    width: 101.5%;
+    right: 100px;
+}
+li {
+    display: inline-block;
+    margin: 39px;
+}
+
+.Menu {
+    position: absolute;
+    margin: -6.5%;
+    margin-block-end: auto;
+    left: 555px;
+}
+
+a {
+    color: aliceblue;
+}
+a:hover {
+    color: red;
+}
+
+main {
+    text-align: center;
+    font-size: 160%;
+    color:rgb(245, 114, 114);
+}
+body{
+    
+}
