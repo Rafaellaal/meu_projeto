@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jacquard+12&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: red;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(221, 0, 0);
+    display: flex;
+}
+#icon{
+    width: 60px;
+}
+h4{
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+li{
+    display: inline-block; 
+    margin-top: 2.5%;
+    padding: 0 60px;
+    margin-left: 70px;
+}
+a {
+    color: rgb(0, 0, 0);
+    
+}
+a:hover {
+    color: blue;
+}
+a:link{
+    text-decoration: none;
+}
+
+img{
+    
+}
+h1 {
+    color: #0e0e74;
+    text-align: center;
+    padding-top: 40px;
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em #9e0000
+    
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+    padding-top: 60px;
+    align-items: center;
+    
+}
+img{
+    width: 320px;
+    border-radius: 5px;
+}
+.a,.b,.c{
+    margin-left: 35px;
+    background-color:  rgb(189, 10, 10);
+    border-radius: 20px;
+    border: 3px solid rgb(189, 10, 10)  ;
+    border-radius: 9px;
+    
+   
+}
+.d, .e {
+    margin-left: 10%;
+    background-color:  rgb(189, 10, 10);
+    border-radius: 20px;
+    border: 3px solid rgb(189, 10, 10)  ;
+    border-radius: 9px;
+}
+.a:hover,.b:hover,.c:hover,.d:hover,.e:hover {
+    background-image: linear-gradient(#1f1ba3, #0e0e74);
+}
+
+.a .img {
+    transition: all .5s;
+    z-index: 2;
+    opacity: .8;
+    margin-left: 5px;
+}
+
+.a .text {
+    padding: 0px 0px;
+    height: 0;
+    opacity: 0;
+    transition: all .5s;
+    overflow: hidden;
+    transform: translateY(30px);
+}
+.a:hover .text {
+    height: 130px;
+    padding: 20px;
+    opacity: 1;
+    transform: translateY(0);
+}
+.a .audio {
+    padding: 15px;
+    transform: rotate(-360deg);
+    transition: all .5s;
+}
+.a:hover .audio {
+    transform: rotate(0);
+}
+.b .img {
+    transition: all .5s;
+    z-index: 2;
+    opacity: .8;
+    margin-left: 5px;
+}
+
+.b .text {
+    padding: 0px 0px;
+    height: 0;
+    opacity: 0;
+    transition: all .5s;
+    overflow: hidden;
+    transform: translateY(30px);
+}
+.b:hover .text {
+    height: 130px;
+    padding: 20px;
+    opacity: 1;
+    transform: translateY(0);
+}
+.b .audio {
+    padding: 15px;
+    transform: rotate(-360deg);
+    transition: all .5s;
+}
+.b:hover .audio {
+    transform: rotate(0);
+}
+.c .img {
+    transition: all .5s;
+    z-index: 2;
+    opacity: .8;
+    margin-left: 5px;
+}
+
+.c .text {
+    padding: 0px 0px;
+    height: 0;
+    opacity: 0;
+    transition: all .5s;
+    overflow: hidden;
+    transform: translateY(30px);
+}
+.c:hover .text {
+    height: 130px;
+    padding: 20px;
+    opacity: 1;
+    transform: translateY(0);
+}
+.c .audio {
+    padding: 15px;
+    transform: rotate(-360deg);
+    transition: all .5s;
+}
+.c:hover .audio {
+    transform: rotate(0);
+}
+.d .img {
+    transition: all .5s;
+    z-index: 2;
+    opacity: .8;
+    margin-left: 5px;
+}
+
+.d .text {
+    padding: 0px 0px;
+    height: 0;
+    opacity: 0;
+    transition: all .5s;
+    overflow: hidden;
+    transform: translateY(30px);
+}
+.d:hover .text {
+    height: 130px;
+    padding: 20px;
+    opacity: 1;
+    transform: translateY(0);
+}
+.d .audio {
+    padding: 15px;
+    transform: rotate(-360deg);
+    transition: all .5s;
+}
+.d:hover .audio {
+    transform: rotate(0);
+}
+.e .img {
+    transition: all .5s;
+    z-index: 2;
+    opacity: .8;
+    margin-left: 5px;
+}
+
+.e .text {
+    padding: 0px 0px;
+    height: 0;
+    opacity: 0;
+    transition: all .5s;
+    overflow: hidden;
+    transform: translateY(30px);
+}
+.e:hover .text {
+    height: 130px;
+    padding: 20px;
+    opacity: 1;
+    transform: translateY(0);
+}
+.e .audio {
+    padding: 15px;
+    transform: rotate(-360deg);
+    transition: all .5s;
+}
+.e:hover .audio {
+    transform: rotate(0);
+}
